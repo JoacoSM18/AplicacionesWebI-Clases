@@ -1,0 +1,16 @@
+/*
+Sintaxis
+
+Regla o Rule
+selector (
+    propiedad1: valor;
+    propiedad2: valor;
+)
+*/
+
+/*
+Selectores de Tipo
+*/
+body {
+    background-color:aquamarine;
+}

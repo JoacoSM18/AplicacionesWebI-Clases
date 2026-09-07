@@ -1,0 +1,16 @@
+Comandos Node
+    Una sola vez
+        Instalar Node JS version estable LTS
+        Verficar si se instaló
+            node -v = version node
+            npm - v = version npm
+        Instalar pnpm (en el aula)
+            npm i -g pnpm
+    En cada proyecto
+        Inicializar proyecto en la ruta necesaria
+            pn init = crea el documento .json
+        Instalar un paquete
+            pn add five-server
+        Creacion de .gitignore para ignorar node_modules para que no se suba al repositorio
+        Para volver a instalar lo de package.json
+            pn install
