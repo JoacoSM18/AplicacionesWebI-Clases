@@ -1,0 +1,59 @@
+/*
+Sintaxis
+
+Regla o Rule
+selector (
+    propiedad1: valor;
+    propiedad2: valor;
+)
+*/
+
+/*Selector UNIVERSAL
+*{
+
+}
+*/
+
+/* Selectores de TIPO */
+body {
+    background-color:aquamarine;
+}
+
+header {
+    background-color: maroon;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Selectores de CLASE*/
+.encabezado-principal {
+    background-color: teal;
+}
+
+.encabezado-principal .vinculos a{
+    color: yellow;
+}
+
+.contenido-principal {
+    color: tomato;
+}
+
+.pie-principal {
+    color: cornsilk;
+}
+
+/*Selector ID
+#contactos {
+    background-color: chartreuse;
+}
+*/
+
+/*Selector ATRIBUTO
+[class]{
+
+}
+*/
+

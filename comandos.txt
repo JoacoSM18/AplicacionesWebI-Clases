@@ -14,3 +14,6 @@ Comandos Node
         Creacion de .gitignore para ignorar node_modules para que no se suba al repositorio
         Para volver a instalar lo de package.json
             pn install
+
+https://www.npmjs.com/
+https://pnpm.io/es/
