@@ -1,0 +1,49 @@
+/* MODELO DE CAJA */
+*{
+    box-sizing: border-box;
+}
+
+/* RESET */
+html, h1, h2, h3, ul, body{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eeeeee;
+}
+a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.cabecera-principal{
+    width: 100%;
+    height: 80px;
+    background-color: #a7a7a7;
+    padding: 5px 10px 20px 10px;
+    border-bottom: 2px solid #222;
+}
+
+.cabecera-principal nav{
+    background-color: #777;
+}
+
+.contenido-principal{
+    padding: 10px 20;
+
+}
+.contenido-principal form{
+    width: 500px;
+}
+
+.contenido-principal form input{
+    display: block;
+    width: 100%;
+}
+.pie-principal{
+    padding: 10px;
+    background-color: #a7a7a7;
+    width: 100%;
+    height: 100px;
+}

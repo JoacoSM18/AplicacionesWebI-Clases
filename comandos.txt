@@ -4,6 +4,8 @@ Comandos Node
         Verficar si se instaló
             node -v = version node
             npm - v = version npm
+        Ubicarse en la clase
+            cd clase x
         Instalar pnpm (en el aula)
             npm i -g pnpm
     En cada proyecto
@@ -11,9 +13,22 @@ Comandos Node
             pn init = crea el documento .json
         Instalar un paquete
             pn add five-server
+        Configurar Package json
+            "scripts":{
+                "dev": "five server"
+            }
+        Crear archivo de configuracion de five-server
+            .fiveserverrc
+            {
+                "root": "src"
+            }
         Creacion de .gitignore para ignorar node_modules para que no se suba al repositorio
         Para volver a instalar lo de package.json
             pn install
+        Crear src
+        Empezar
+            pn dev
+        
 
 https://www.npmjs.com/
 https://pnpm.io/es/
