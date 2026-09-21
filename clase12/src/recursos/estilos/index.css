@@ -1,0 +1,106 @@
+/*
+Sintaxis
+
+Regla o Rule
+selector (
+    propiedad1: valor;
+    propiedad2: valor;
+)
+*/
+
+@font-face {
+    font-family: Monserrat;
+    src: url(./fuentes/Montserrat-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
+} 
+/* Selectores de TIPO */
+html {
+    font-family: Monserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; /*Tamaño Base en la Raíz, Sirve como Referencia*/
+}
+body {
+    background-color:aquamarine;
+}
+
+header {
+    background-color: maroon;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p{
+    font-size: 0.9rem; /*Busca la Referncia de la Raiz y lo Multiplica por el Numero*/
+}
+
+/*Selectores de CLASE*/
+.encabezado-principal {
+    position: sticky;
+    top: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    padding: 5px;
+}
+
+.encabezado-principal a img{
+    width: 100px;
+}
+
+
+.encabezado-principal .vinculos a{
+    color: cornsilk;
+}
+
+.contenido-principal {
+    color: maroon;
+    height: 1500px;
+}
+
+/*.contenido-principal .parrafo{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: yellow;
+    padding: 10px;
+    width: 300px;
+}*/
+
+.pie-principal {
+    color: maroon;
+}
+.pie-principal a {
+    color: maroon;
+}
+
+.pie-principal .mensajeria {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    list-style: none;
+}
+
+/*Selector ID
+#contactos {
+    background-color: chartreuse;
+}
+*/
+
+/*Selector ATRIBUTO
+[class]{
+
+}
+*/
+
