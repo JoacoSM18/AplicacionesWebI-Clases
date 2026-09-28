@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Reservas</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+<body>
+    <header class="encabezado-principal">
+        <h1>Retiro Sustentable</h1>
+        <nav>
+            <a href="./index.html">
+                <img src="./recursos/imagenes/logo-rs.svg" alt="Logo Traingulo de Retiro Sustentable">
+            </a>
+        </nav>
+    </header>
+    <main class="contenido-principal">
+        <h2>Reservas</h2>
+        <h3>Contactanos</h3>
+       <form action="./reservas.html" method="post">
+            <label for="id_nombrecompleto">
+                Nombre Completo:
+            </label>
+            <input type="text" name="nombrecompleto" id="id_nombrecompleto">
+            <label for="id_telefono">
+                Telefono:
+            </label>
+            <input type="number" name="telefono" id="id_telefono">
+            <label for="id_email">
+                Email:
+            </label>
+            <input type="email" name="email" id="id_email">
+            <label for="id_fechadesde">
+                Fecha Desde:
+            </label>
+            <input type="date" name="fechadesde" id="id_fechadesde">
+            <label for="id_fechahasta">
+                Fecha Hasta:
+            </label>
+            <input type="date" name="fechahasta" id="id_fechahasta">
+             <label for="id_comentario">
+                Comentario:
+            </label>
+            <input type="text" name="comentario" id="id_comentario">
+            <button type="submit">
+                Enviar Datos
+            </button>
+       </form>
+    </main>
+    <footer class="pie-principal">
+        <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
