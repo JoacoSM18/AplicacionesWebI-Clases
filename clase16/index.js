@@ -15,3 +15,6 @@ const numerosMasUno = numeros.map((numero)=>{
 console.log (numerosMasUno)
 
 //Filter and Find
+const numerosFiltrados = numeros.filter ((numero) => {
+    return numero > 7
+})
